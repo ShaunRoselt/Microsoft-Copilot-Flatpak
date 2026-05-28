@@ -1,6 +1,6 @@
 # Copilot Desktop Flatpak
 
-Unofficial Web App for Microsoft Copilot providing the desktop user experience you would expect on Linux desktop.
+Unofficial Web App for Microsoft Copilot providing the desktop user experience you would expect on the Linux desktop.
 
 ## Build
 

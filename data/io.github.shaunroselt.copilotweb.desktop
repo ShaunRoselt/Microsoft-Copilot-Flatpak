@@ -2,7 +2,7 @@
 Type=Application
 Name=Copilot Desktop
 GenericName=AI Assistant
-Comment=Unofficial Web App for Microsoft Copilot providing the desktop user experience you would expect on Linux desktop
+Comment=Unofficial Web App for Microsoft Copilot providing the desktop user experience you would expect on the Linux desktop
 Exec=copilot-web %U
 Icon=io.github.shaunroselt.copilotweb
 Terminal=false

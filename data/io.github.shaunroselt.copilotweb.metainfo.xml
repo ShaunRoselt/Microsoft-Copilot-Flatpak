@@ -12,7 +12,7 @@
   <url type="homepage">https://github.com/ShaunRoselt/Microsoft-Copilot-Flatpak</url>
   <url type="bugtracker">https://github.com/ShaunRoselt/Microsoft-Copilot-Flatpak/issues</url>
   <description>
-    <p>Copilot Desktop is an unofficial Web App for Microsoft Copilot providing the desktop user experience you would expect on Linux desktop.</p>
+    <p>Copilot Desktop is an unofficial Web App for Microsoft Copilot providing the desktop user experience you would expect on the Linux desktop.</p>
     <p>It opens copilot.microsoft.com in a sandboxed desktop window and is not affiliated with or endorsed by Microsoft.</p>
   </description>
   <content_rating type="oars-1.1">
