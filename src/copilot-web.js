@@ -4,8 +4,9 @@ imports.gi.versions.Gtk = "4.0";
 imports.gi.versions.WebKit2 = "4.1";
 
 const { Gio, Gtk, WebKit2 } = imports.gi;
+const System = imports.system;
 
-const APP_ID = "io.github.ShaunRoselt.CopilotWeb";
+const APP_ID = "io.github.shaunroselt.copilotweb";
 const HOME_URL = "https://copilot.microsoft.com/";
 
 const app = new Gtk.Application({
@@ -22,17 +23,15 @@ app.connect("activate", () => {
     });
 
     const webview = new WebKit2.WebView();
-    webview.load_uri(HOME_URL);
-
     webview.connect("notify::title", () => {
         if (webview.title) {
             window.title = `${webview.title} — Copilot Web`;
         }
     });
+    webview.load_uri(HOME_URL);
 
     window.set_child(webview);
     window.present();
 });
 
-app.run([]);
-
+System.exit(app.run(System.programArgs));

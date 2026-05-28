@@ -4,8 +4,7 @@ Name=Copilot Web
 GenericName=AI Assistant
 Comment=Unofficial web wrapper for copilot.microsoft.com
 Exec=copilot-web %U
-Icon=io.github.ShaunRoselt.CopilotWeb
+Icon=io.github.shaunroselt.copilotweb
 Terminal=false
 Categories=Network;Office;
 Keywords=Copilot;AI;Assistant;Web;
-

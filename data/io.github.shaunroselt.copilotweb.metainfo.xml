@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>io.github.ShaunRoselt.CopilotWeb</id>
+  <id>io.github.shaunroselt.copilotweb</id>
   <name>Copilot Web</name>
   <summary>Unofficial web wrapper for Microsoft Copilot</summary>
   <metadata_license>CC0-1.0</metadata_license>
@@ -8,20 +8,18 @@
   <developer id="io.github.shaunroselt">
     <name>Shaun Roselt</name>
   </developer>
-  <launchable type="desktop-id">io.github.ShaunRoselt.CopilotWeb.desktop</launchable>
+  <launchable type="desktop-id">io.github.shaunroselt.copilotweb.desktop</launchable>
   <url type="homepage">https://github.com/ShaunRoselt/Microsoft-Copilot-Flatpak</url>
   <url type="bugtracker">https://github.com/ShaunRoselt/Microsoft-Copilot-Flatpak/issues</url>
   <description>
     <p>Copilot Web is an unofficial Flatpak wrapper that opens copilot.microsoft.com in a sandboxed desktop window.</p>
-    <p>It opens the Microsoft Copilot web app in a sandboxed desktop window. This project is not affiliated with or endorsed by Microsoft.</p>
+    <p>It provides a lightweight desktop launcher for the Microsoft Copilot website and is not affiliated with or endorsed by Microsoft.</p>
   </description>
   <content_rating type="oars-1.1">
-    <content_attribute id="social-chat">
-      <value>moderate</value>
-    </content_attribute>
+    <content_attribute id="social-chat">moderate</content_attribute>
   </content_rating>
   <categories>
     <category>Network</category>
-    <category>Office</category>
+    <category>Utility</category>
   </categories>
 </component>
