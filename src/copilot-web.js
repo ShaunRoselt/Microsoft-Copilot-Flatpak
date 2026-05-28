@@ -17,7 +17,7 @@ const app = new Gtk.Application({
 app.connect("activate", () => {
     const window = new Gtk.ApplicationWindow({
         application: app,
-        title: "Copilot Web",
+        title: "Copilot Desktop",
         default_width: 1280,
         default_height: 900,
     });
@@ -25,7 +25,7 @@ app.connect("activate", () => {
     const webview = new WebKit2.WebView();
     webview.connect("notify::title", () => {
         if (webview.title) {
-            window.title = `${webview.title} — Copilot Web`;
+            window.title = `${webview.title} — Copilot Desktop`;
         }
     });
     webview.load_uri(HOME_URL);

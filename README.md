@@ -1,6 +1,6 @@
-# Copilot Web Flatpak
+# Copilot Desktop Flatpak
 
-Unofficial Flatpak wrapper for https://copilot.microsoft.com.
+Unofficial Web App for Microsoft Copilot providing the desktop user experience you would expect on Linux desktop.
 
 ## Build
 

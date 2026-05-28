@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
   <id>io.github.shaunroselt.copilotweb</id>
-  <name>Copilot Web</name>
-  <summary>Unofficial web wrapper for Microsoft Copilot</summary>
+  <name>Copilot Desktop</name>
+  <summary>Unofficial Web App for Microsoft Copilot</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
   <developer id="io.github.shaunroselt">
@@ -12,8 +12,8 @@
   <url type="homepage">https://github.com/ShaunRoselt/Microsoft-Copilot-Flatpak</url>
   <url type="bugtracker">https://github.com/ShaunRoselt/Microsoft-Copilot-Flatpak/issues</url>
   <description>
-    <p>Copilot Web is an unofficial Flatpak wrapper that opens copilot.microsoft.com in a sandboxed desktop window.</p>
-    <p>It provides a lightweight desktop launcher for the Microsoft Copilot website and is not affiliated with or endorsed by Microsoft.</p>
+    <p>Copilot Desktop is an unofficial Web App for Microsoft Copilot providing the desktop user experience you would expect on Linux desktop.</p>
+    <p>It opens copilot.microsoft.com in a sandboxed desktop window and is not affiliated with or endorsed by Microsoft.</p>
   </description>
   <content_rating type="oars-1.1">
     <content_attribute id="social-chat">moderate</content_attribute>
