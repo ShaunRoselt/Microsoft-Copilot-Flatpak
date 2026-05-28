@@ -1,0 +1,35 @@
+{
+  "id": "io.github.ShaunRoselt.CopilotWeb",
+  "runtime": "org.gnome.Platform",
+  "runtime-version": "46",
+  "sdk": "org.gnome.Sdk",
+  "command": "copilot-web",
+  "finish-args": [
+    "--share=network",
+    "--share=ipc",
+    "--socket=wayland",
+    "--socket=fallback-x11",
+    "--socket=pulseaudio",
+    "--device=dri",
+    "--filesystem=xdg-download"
+  ],
+  "modules": [
+    {
+      "name": "copilot-web",
+      "buildsystem": "simple",
+      "build-commands": [
+        "install -Dm755 src/copilot-web.js /app/bin/copilot-web",
+        "install -Dm644 data/io.github.ShaunRoselt.CopilotWeb.desktop /app/share/applications/io.github.ShaunRoselt.CopilotWeb.desktop",
+        "install -Dm644 data/io.github.ShaunRoselt.CopilotWeb.metainfo.xml /app/share/metainfo/io.github.ShaunRoselt.CopilotWeb.metainfo.xml",
+        "install -Dm644 data/icons/hicolor/scalable/apps/io.github.ShaunRoselt.CopilotWeb.svg /app/share/icons/hicolor/scalable/apps/io.github.ShaunRoselt.CopilotWeb.svg"
+      ],
+      "sources": [
+        {
+          "type": "dir",
+          "path": "."
+        }
+      ]
+    }
+  ]
+}
+

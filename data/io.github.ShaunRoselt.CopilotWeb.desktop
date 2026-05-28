@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Copilot Web
+GenericName=AI Assistant
+Comment=Unofficial web wrapper for copilot.microsoft.com
+Exec=copilot-web %U
+Icon=io.github.ShaunRoselt.CopilotWeb
+Terminal=false
+Categories=Network;Office;
+Keywords=Copilot;AI;Assistant;Web;
+
